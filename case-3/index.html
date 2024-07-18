@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <img id="slider-image" src="img/image1.jpeg" alt="Картинка">
+        </div>
+        <div class="controls">
+            <button id="prev-btn">&lt;</button>
+            <span id="image-counter">Изображение 1 из ${images.length}</span>
+            <button id="next-btn">&gt;</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
