@@ -44,7 +44,7 @@ body {
     color: #fff;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.15s;
 }
 
 .controls button:hover {
